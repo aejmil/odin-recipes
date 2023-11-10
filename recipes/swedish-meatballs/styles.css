@@ -1,3 +1,5 @@
+
+
 .recipe-name {
     text-align: center;
 }
@@ -8,16 +10,69 @@ img {
     margin-right: auto;
     height: 440px;
     width: auto;
-    padding: 0px;
-
 }
+
 
 .ingredients {
     display: inline-block;
     border: dotted 2px black;
     padding: 20px;
+    margin-left: 375px;
+    margin-right: auto;
     box-sizing: border-box;
-    height: 440px;
-    margin-bottom: 20px;
-    text-align: left;
+    height: 440px;    
+    vertical-align: top;
+    padding-top: 10px;
 }
+
+.header,
+.description,
+.link {
+    text-align: center;
+}
+
+.header.description {
+    padding: 20px;
+    margin-bottom: -10px;
+    margin-top: -14px;
+}
+
+
+.description,
+.descriptionborder {
+    box-sizing: border-box;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descriptionborder {
+    border: dotted 2px black;
+    width: 900px
+}
+
+.steps {
+    box-sizing: border-box;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.header.steps {
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+.stepsborder {
+    box-sizing: border-box;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: dotted 2px black;
+    border-top: 0px;
+    margin-top: -20px;
+    }
