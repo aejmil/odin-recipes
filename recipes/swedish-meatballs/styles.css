@@ -12,13 +12,14 @@ img {
     width: auto;
 }
 
+.test {
+    text-align: center;
+}
 
 .ingredients {
     display: inline-block;
     border: dotted 2px black;
-    padding: 20px;
-    margin-left: 375px;
-    margin-right: auto;
+    padding: 20px;   
     box-sizing: border-box;
     height: 440px;    
     vertical-align: top;
