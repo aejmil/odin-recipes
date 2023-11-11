@@ -17,14 +17,14 @@ img {
 .ingredients {
     display: inline-block;
     border: dotted 2px black;
-    padding: 20px;   
+    padding: 10px;   
     box-sizing: border-box;
     height: 383px; 
     width: 215px;   
     vertical-align: top;
     padding-top: 10px;
     text-align: left;
-    font-size: 0.73em;
+    font-size: 0.79em;
 }
 
 .header.description {
