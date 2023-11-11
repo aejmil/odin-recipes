@@ -3,19 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <title>Tacos</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <h1>Tacos</h1>
-        
-        <img src="./img/tacos.jpg" alt="Picture of a taco plate" height="715" width="1269">
-        
-        <h2>Description</h2>
-
-        <p>Serving tacos is a guaranteed success! Many small bowls are filled with delicious treats - spicy minced meat, chopped vegetables, cool sour cream, luxurious guacamole, and more. Let everyone at the table fill their taco with their favorites. More taco fiesta for everyone!</p>
-
-        <h3>Ingredients</h3>
-        <h4>Taco meat</h4>
+        <h1 class="recipe-name">Tacos</h1>
+        <div class="align">
+        <div class="ingredients">
+            <h3 class="header">Ingredients</h3>
+        <h4 class="header">Taco meat</h4>
         <ul>
             <li>500g ground beef</li>
             <li>2 tbsp butter & rapeseed oil</li>
@@ -23,7 +19,7 @@
             <li>1 dcl water</li>
         </ul>
 
-        <h4>For serving</h4>
+        <h4 class="header">For serving</h4>
         <ul>
             <li>150g cherry tomatoes, halved</li>
             <li>1 sliced cucumber</li>
@@ -38,15 +34,24 @@
             <li>fresh cilantro</li>
 
         </ul>
+        </div>
+        <img src="./img/tacos.jpg" alt="Picture of a taco plate" height="715" width="1269">
+        </div>
+        <div class="descriptionborder">
+        <h2 class="header description">Description</h2>
 
-        <h3>Steps</h3>
-        <ol>
+        <p class="description">Serving tacos is a guaranteed success! Many small bowls are filled with delicious treats - spicy minced meat, chopped vegetables, cool sour cream, luxurious guacamole, and more. Let everyone at the table fill their taco with their favorites. More taco fiesta for everyone!</p>
+        </div>
+        
+        <div class="stepsborder">
+        <h3 class="header steps">Steps</h3>
+        <ol class="steps">
             <li>Fry the ground beef in butter and rapeseed oil until it's crumbly and well-cooked. Add the taco seasoning mix and water. Simmer until the water has evaporated. Remove from heat.</li>
             <li>Serve with all the accompaniments arranged in bowls. You can also sauté the corn in a bit of butter and rapeseed oil for a nice color.</li>
         </ol>
-
-        <p><a href="../../index.html">Back to main page</a></p>
-        <p><a href="https://www.arla.se/recept/taco/" target="_blank" rel="noopener noreferrer">Source: Arla.se Tacos</a></p>
+        </div>
+        <p class="link"><a href="../../index.html">Back to main page</a></p>
+        <p class="link"><a href="https://www.arla.se/recept/taco/" target="_blank" rel="noopener noreferrer">Source: Arla.se Tacos</a></p>
     </body>
 
 </html>
