@@ -1,0 +1,71 @@
+.recipe-name,
+.header,
+.description,
+.link,
+.align {
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 660px;
+}
+
+.ingredients {
+    display: inline-block;
+    border: dotted 2px black;
+    padding: 20px;   
+    box-sizing: border-box;
+    height: 440px;
+    width: 235px;    
+    vertical-align: top;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.header.description {
+    padding: 20px;
+    margin-bottom: -10px;
+    margin-top: -14px;
+}
+
+
+.description,
+.descriptionborder,
+.steps {
+    box-sizing: border-box;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descriptionborder {
+    border: dotted 2px black;
+    width: 900px
+}
+
+.header.steps {
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+.steps {
+    padding: 10px;
+}
+
+
+.stepsborder {
+    box-sizing: border-box;
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: dotted 2px black;
+    border-top: 0px;
+    margin-top: -20px;
+    }
